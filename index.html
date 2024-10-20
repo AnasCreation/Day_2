@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h2>STUDENT INFORMATION FORM</h2>
+    <form action="./result.html">
+
+<fieldset>
+    <legend>Student Information</legend>
+
+<label for="first name">First Name: *</label> <br> 
+        <input required id="first name"type="text" placeholder="enter your first name"> <br><br>
+        <label for="last name">Last Name:</label> <br>
+        <input id="last name" type="text" placeholder="enter your last name" <br><br><br>
+        <label for="email">Email:</label> <br>
+        <input id="email" type="email" placeholder="enter your email"> <br><br>
+<label for="pass">Password:</label><br>
+<input type="password" placeholder="enter your password" name="" id="pass"><br><br>
+
+<label for="number">Phone Number:</label><br>
+<input id="number" type="number" placeholder="enter your phone number"> <br><br>
+
+<label for="gender">Select Your Gender:</label><br>
+
+<label for="Man">Man</label>
+<input name="gender" id="Man" type="radio">
+
+<label for="women">Women</label>
+<input name="gender" id="women" type="radio"><br><br>
+
+<label for="Division">Select Division</label>
+
+<select id="Division" name="" id="">
+    <option selected disabled value="">------select your division------</option>    
+<option value="">Barishal</option>
+<option value="">Dhaka</option>
+<option value="">Rajshahi</option>
+<option value="">Rangpur</option>
+<option value="">Chittagong</option>
+<option value="">Khulna</option>
+<option value="">Sylhet</option> 
+
+</select><br><br>
+
+
+<label for="">Choose an image:</label>
+<input hidden id="file" accept=".png,.jpg" id="file" type="file" name="" id=""> <br>
+<label for="file"><img id="file" width="150" src="https://placehold.co/600x400/EEE/31343C" alt=""> <br><br>
+</label>
+<label for="birth date">Select Your Birth Date:</label>
+<input id="birth date" type="date"> <br> <br>
+
+<label for="">Date + Time:</label>
+<input type="datetime-local" name="" id=""> <br><br>
+
+<label for="">Color:</label>
+<input type="color">
+<label for="url">URL:</label>
+<input type="url" name="" id="url"><br><br><br>
+
+<label for="">Text area:</label> <br>
+<textarea name="" id="" rows="5" cols="41"></textarea><br>
+
+<input type="reset">
+
+<button>Submit</button>
+
+</fieldset>
+
+</form>   
+</body>
+</html>
